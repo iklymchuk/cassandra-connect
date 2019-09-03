@@ -5,7 +5,7 @@
 ### install dependencies
 `pip install -r requirements.txt`
 
-### install cassandra
+# Install cassandra
 `cd /Tools/cassandra`
 `mkdir node1 node2`
 
@@ -52,5 +52,5 @@
 `INSERT INTO users(username,name,age) VALUES ('jack01','Jack David',23);`
 `INSERT INTO users(username,name,age) VALUES ('ninopk','Nina Rehman',34);`
 
-# Testing cs-connect
+# Testing cassandra-connect
 `python cassandra-connect.py`
